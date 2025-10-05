@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diablo II D2VM Wiki</title>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #0d0d0d;
+      color: #e4d6a7;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* Sidebar */
+    nav {
+      background-color: #1b1b1b;
+      width: 260px;
+      padding: 20px;
+      box-shadow: inset -1px 0 10px rgba(255, 0, 0, 0.15);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      overflow-y: auto;
+    }
+
+    nav h2 {
+      font-family: 'UnifrakturCook', cursive;
+      color: #ffb347;
+      text-shadow: 0 0 6px #ff4500;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    nav a {
+      display: block;
+      color: #e4d6a7;
+      text-decoration: none;
+      margin: 10px 0;
+      padding: 8px;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 69, 0, 0.2);
+      color: #fff;
+    }
+
+    /* Main content */
+    main {
+      margin-left: 280px;
+      padding: 40px;
+      flex: 1;
+    }
+
+    header {
+      font-family: 'UnifrakturCook', cursive;
+      font-size: 3rem;
+      color: #ffb347;
+      text-shadow: 0 0 10px #ff4500;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #ffb347;
+      border-bottom: 1px solid rgba(255, 180, 71, 0.3);
+      padding-bottom: 5px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    /* Scrollbar styling */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #444;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Diablo II Wiki</h2>
+    <a href="#intro">🏹 Giới thiệu</a>
+    <a href="#install">⚙️ Cài đặt mod</a>
+    <a href="#items">💎 Vật phẩm</a>
+    <a href="#skills">🔥 Kỹ năng</a>
+    <a href="#bosses">👹 Boss & Khu vực</a>
+    <a href="#about">📜 Về dự án</a>
+  </nav>
+
+  <main>
+    <header>Diablo II D2VM Mod Wiki</header>
+
+    <section id="intro" class="section">
+      <h2>🏹 Giới thiệu</h2>
+      <p>
+        Chào mừng bạn đến với <b>Diablo II D2VM Wiki</b> – nơi lưu trữ toàn bộ thông tin, hướng dẫn và nội dung liên quan đến bản mod <b>Diablo II: ESR / D2VM</b>.
+        Mod này mở rộng thế giới Sanctuary với hệ thống vật phẩm, kỹ năng, boss và vùng đất mới đầy thử thách.
+      </p>
+    </section>
+
+    <section id="install" class="section">
+      <h2>⚙️ Hướng dẫn cài đặt</h2>
+      <p>
+        1. Tải bản mod từ GitHub hoặc trang chủ. <br>
+        2. Giải nén vào thư mục Diablo II gốc. <br>
+        3. Chạy game bằng lệnh: <code>Game.exe -mod D2VM -txt</code> <br>
+        4. Kiểm tra file cấu hình để bật tính năng bổ sung.
+      </p>
+    </section>
+
+    <section id="items" class="section">
+      <h2>💎 Vật phẩm mới</h2>
+      <p>
+        - Thêm hàng trăm vật phẩm hiếm, runeword mới, và công thức cube.<br>
+        - Cập nhật chỉ số và khả năng đặc biệt tùy theo class nhân vật.<br>
+        - Một số vật phẩm chỉ rơi từ boss đặc biệt hoặc sự kiện.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>🔥 Kỹ năng mới</h2>
+      <p>
+        - Mỗi class có ít nhất 5 kỹ năng hoàn toàn mới.<br>
+        - Cân bằng lại các kỹ năng cổ điển để phù hợp meta hiện tại.<br>
+        - Một số kỹ năng có hiệu ứng hình ảnh đặc biệt.
+      </p>
+    </section>
+
+    <section id="bosses" class="section">
+      <h2>👹 Boss & Khu vực</h2>
+      <p>
+        - Thêm nhiều khu vực ẩn (Secret Areas).<br>
+        - Boss có AI và cơ chế chiến đấu riêng biệt.<br>
+        - Khiêu chiến boss để nhận vật phẩm độc quyền và phần thưởng đặc biệt.
+      </p>
+    </section>
+
+    <section id="about" class="section">
+      <h2>📜 Về dự án</h2>
+      <p>
+        Dự án <b>D2VM</b> được phát triển bởi cộng đồng người hâm mộ Diablo II Việt Nam.  
+        Mục tiêu: Giữ nguyên tinh thần Diablo II cổ điển nhưng mở rộng thế giới và thử thách hơn.  
+        Mọi đóng góp, phản hồi và ý tưởng đều được chào đón tại <a href="https://github.com/philong2016/diablo2-D2VM-wiki" style="color:#ffb347;">GitHub Repo</a>.
+      </p>
+    </section>
+
+    <footer>
+      © 2025 D2VM Mod Team | Designed by Long Phi
+    </footer>
+  </main>
+</body>
+</html>
